@@ -4,5 +4,9 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+anyhow = "1.0.95"
 clap = { version = "4.5.28", features = ["derive"] }
+home = "0.5.11"
+log = "0.4.25"
+simplelog = "0.12.2"
 sysinfo = "0.33.1"
